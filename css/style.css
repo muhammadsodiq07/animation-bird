@@ -9,17 +9,16 @@ body {
  background-color: #18233e;
 }
 .content{
-  width: 300px;
-  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
- 
 }
 .section {
-  position: relative;
-  top: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 .bird-main{
   position: relative;
